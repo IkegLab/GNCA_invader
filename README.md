@@ -18,10 +18,10 @@ pip install onnxruntime
 ```
 
 ### Instructions for Mac Users
-1. Download this `zip file` from link.  
-[https://drive.google.com/file/d/1Mnl2p-4iLah-XGlUh7croq9FrBTgUon1/view?usp=sharing](https://drive.google.com/file/d/1Mnl2p-4iLah-XGlUh7croq9FrBTgUon1/view?usp=sharing "google drive")
-2. unzip it.
 ```sh
+git clone https://github.com/IkegLab/GNCA_invader.git
+cd GNCA_invader
+unzip for_mac.zip
 cd for_mac
 xattr -rd com.apple.quarantine for_mac.app
 open for_mac.app
@@ -31,7 +31,7 @@ python main.py
 ### Instructions for Windows Users
 ```sh
 git clone https://github.com/IkegLab/GNCA_invader.git
-cd for_win/GNCA-ORT
+cd GNCA_invader/for_win/GNCA-ORT
 python main.py
 ```
 After that, run `nca_unity.exe`
