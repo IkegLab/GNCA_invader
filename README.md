@@ -18,7 +18,7 @@ pip install onnxruntime
 ```
 
 ### Instructions for Mac Users
-1. Download this zip file from link.  
+1. Download this `zip file` from link.  
 [https://drive.google.com/file/d/1Mnl2p-4iLah-XGlUh7croq9FrBTgUon1/view?usp=sharing](https://drive.google.com/file/d/1Mnl2p-4iLah-XGlUh7croq9FrBTgUon1/view?usp=sharing "google drive")
 2. unzip it.
 ```sh
@@ -27,7 +27,6 @@ xattr -rd com.apple.quarantine for_mac.app
 open for_mac.app
 python main.py
 ```
-After that, tun  `for_mac.app`
 
 ### Instructions for Windows Users
 ```sh
