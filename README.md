@@ -6,6 +6,8 @@ This game was presented at the ALIFE 2023 workshop.
 As a preliminary implementation of GNCA to video games, Python was used for running neural network models, and Unity for running the game. The implemented game here is inspired by the classic Space Invaders from 1978. In the original game, space fighters shoot aliens. We replaced aliens with a GNCA lizard and the player aims to defeat the lizard by eliminating all its cells. The game was developed by `Takahide Yoshida` and `Hiroki Sato`. For more information, see `Automata Quest: NCAs as a Video Game Life Mechanic` by Hiroki Sato,　`Tanner Lund`, and Takahide Yoshida.
 
 ## Architecture
+![architecture](architecture.png "architecture IMG")
+ With regards to the Python code, we used a GNCA model with 16 channels per cell trained on PyTorch and converted to ONNX. The Python program receives an input of an array of binary cell state (0 = dead, 1 = alive) on the game engine and applies it to the cell 16-channel states. The GNCA model infers the cells and outputs updated cell states. On the game engine (Unity) side, the engine reads the RGBα channels of the updated cell state and depicts alive cells as cubes with a color specified by the json files. The cell cubes are broken on collision with bullets shot from a player-controlled space fighter. 
 
 ## How to Run
 ### Python Requirements
