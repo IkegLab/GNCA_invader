@@ -37,8 +37,8 @@ python main.py
 After that, run `nca_unity.exe`
 
 ## How to Play
-`Arrow key` to move.
-`Space key` to shoot.
+`Arrow key` to move.  
+`Space key` to shoot.  
 As a test, the game is over when you are attacked three times by the enemy.
 
 ## Features of this demo
