@@ -39,7 +39,7 @@ After that, run `nca_unity.exe`
 ## How to Play
 `Arrow key` to move.  
 `Space key` to shoot.  
-As a test, the game is over when you are attacked three times by the enemy.
+As a test, the game is over when you are attacked three times by the enemy.  
 There is only GAMEOVER. You cannot clear this game.
 
 ## Features of this demo
