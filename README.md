@@ -40,6 +40,7 @@ After that, run `nca_unity.exe`
 `Arrow key` to move.  
 `Space key` to shoot.  
 As a test, the game is over when you are attacked three times by the enemy.
+There is only GAMEOVER. You cannot clear this game.
 
 ## Features of this demo
 This demo applies ALIFE research to games and offers new insights into the fields of gaming and ALIFE. In games where the termination condition is not binary, like our shooting game using NCA, it is difficult to create a unique winning strategy. The lizards of the NCA have weaknesses, but in some cases attacking them can result in further proliferation or changes in shape, making prediction difficult and adding a different type of dynamism than the semi-randomness of game genres like rogue-likes. 
