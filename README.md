@@ -3,7 +3,7 @@
 ## GNCA Invader Game
 ![demo screenshot](NCA_GIF_small.gif "demo screenshot")  
 This game is presented at the ALIFE 2023 workshop. 
-As a preliminary implementation of GNCA to video games, Python was used for running neural network models, and Unity for running the game. The implemented game here is inspired by the classic Space Invaders from 1978. In the original game, space fighters shoot aliens. We replaced aliens with a GNCA lizard and the player aims to defeat the lizard by eliminating all its cells. The game was developed by `Takahide Yoshida` and `Hiroki Sato`. For more information, see `Automata Quest: NCAs as a Video Game Life Mechanic` by Hiroki Sato,　`Tanner Lund`, and Takahide Yoshida.
+As a preliminary implementation of GNCA to video games, Python was used for running neural network models, and Unity for running the game. The implemented game here is inspired by the classic Space Invaders from 1978. In the original game, space fighters shoot aliens. We replaced aliens with a GNCA lizard and the player aims to defeat the lizard by eliminating all its cells. The game was developed by `Takahide Yoshida` and `Hiroki Sato`. For more information, see `Automata Quest: NCAs as a Video Game Life Mechanic` by Hiroki Sato,　`Tanner Lund`, Takahide Yoshida and `Atsushi Masumori` .
 
 ## Architecture
 ![architecture](architecture.png "architecture IMG")  
