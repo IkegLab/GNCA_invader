@@ -1,6 +1,9 @@
 for_mac/for_mac.app/Contents/Frameworks/UnityPlayer.dylib filter=lfs diff=lfs merge=lfs -text
 C:/Users/tnoin/Downloads/GNCA_invader/for_mac/for_mac.app/Contents/Frameworks/UnityPlayer.dylib filter=lfs diff=lfs merge=lfs -text
 C:/Users/tnoin/Downloads/GNCA_invader/for_mac/for_mac.app/Contents/Frameworks/UnityPlayer.dylib filter=lfs diff=lfs merge=lfs -text
+<<<<<<< HEAD
 41453541e2544558a3f40a8d32a65d4c166ed3174989e1e916d0854b801b2634 filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 for_win filter=lfs diff=lfs merge=lfs -text
+=======
+>>>>>>> origin/master
